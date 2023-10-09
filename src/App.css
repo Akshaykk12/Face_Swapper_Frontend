@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
+/* App.css */
+
+.home-page {
+  max-width: 100%;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-nav {
+  padding: 15px;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-nav h1 {
+  margin: 0;
+  color: black;
+  font-size: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding: 30px;
+}
+
+.left-section {
+  padding: 40px;
+  padding-top: 10px;
+  width: 50%;
+  position: relative;
+}
+
+.slogen {
+  margin-top:0px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.semi-slogen {
+  font-size: 23px;
+  color: #555;
+}
+
+.right-section {
+  width: 40%;
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center items vertically */
+}
+
+.upload-section {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 14px 14px 14px rgba(0, 0, 0, 0.08);
+}
+.preview{
+  
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.dots{
+  
+  width: 50%;
+  height:auto;
+  position: absolute;
+  top: 0px;
+  left:130px;
+}
+.gif{
+  
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  z-index:1;
+  position: absolute;
+  top: 30px;
+  left: 170px;
+
+}
+.hero-text{
+  margin-top:430px;
+  z-index: 2;
+}
+
+.upload-button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+button {
+  margin: 5px;
+  border-radius: 12px;
+  background-color: #ff88c1;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #ff006e;
+}
+
+.result-section {
+  margin-top: 20px;
+}
+
+.uploaded-image1 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  margin: 10px;
+}
+.uploaded-image2 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  margin: 10px;
+  align-items: left;
+} 
+
+.res{
+  margin:20px;
+  padding:15px;
+}
+.feature{
+  display: flex;
+}
+.contain{
+  padding: 20px;
+  margin: 20px;
+  magin-left:0;
+  padding-left:0;
+  width: 45%;
+  border-radius: 40px;
+}
+.feature-slogen{
+  padding-top: 15%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.feature-semi-slogen{
+  color: grey;
+  font-size: 20px;
+  font-weight: inherit;
+}
+.quote-container{
+  background-color: #ff88c1;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 100px;
+  padding-left: 380px; 
+  padding-right: 380px; 
+}
+.quote{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.person{
+  text-align: center;
+  color: white;
+  font-weight: inherit;
+}
+.pinkdots{
+  
+  width: 25%;
+  height:auto;
+  position: absolute;
+  top: 2800px;
+  right:30px;
+}
+.login-containers{
+  border: 2px solid grey;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.join-text{
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+
+}
+.mukul-quote{
+  font-weight: inherit;
+  font-style: italic;
+  text-align: center;
+}
+.login-container{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 30px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.email-box{
+  color: grey;
+  padding: 10px;
+  padding-right: 200px;
+  border: 1px solid grey;
+  border-radius: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signin-button{
+  background-color: #ff88c1;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 15px;
 }
