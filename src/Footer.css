@@ -1,0 +1,52 @@
+.footer {
+  width: 100%;
+  hieght: 50vh;
+  background-color: #ff88c1;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.body {
+  display: flex;
+}
+
+.body-col {
+  flex: 1;
+}
+
+.bottom-part {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.contact {
+  margin-left: 20vh;
+  margin-top: 5vh;
+}
+
+.cont-info {
+    font-size:18px;
+    line-height: 2;
+}
+
+.fa-icon {
+  margin-right: 5vh;
+}
