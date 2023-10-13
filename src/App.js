@@ -2,6 +2,7 @@
 
 import React, { useState, useRef } from 'react';
 import FaceSwapResult from './FaceSwapResult';
+import Footer from './Footer';
 import './App.css';
 import './EmailForm.css';
 
@@ -147,6 +148,9 @@ function App() {
 
 
       <div className="result-section">{resultImage && <FaceSwapResult image={resultImage} />}</div>
+
+      <div><Footer/></div>
+      
     </div>
   );
 }
