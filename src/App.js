@@ -3,6 +3,7 @@
 import React, { useState, useRef } from 'react';
 import FaceSwapResult from './FaceSwapResult';
 import Footer from './Footer';
+import Navbar from './Navbar';
 import './App.css';
 import './EmailForm.css';
 
@@ -38,10 +39,12 @@ function App() {
 
   return (
     <div className="home-page">
-      <nav className="top-nav">
-        <h1>Faceswap Pro</h1>
-      </nav>
-      <div className="hero-section">
+      <div className='navbar-section'>
+      <Navbar/>
+      </div>
+      
+
+      <div className="hero-section" id="home">
         <div className="left-section">
           <div>
             <img src={require('./dots.jpg')} alt ="Dots" className='dots'/>
@@ -90,7 +93,7 @@ function App() {
       </div>
 
 
-      <div className='features'>
+      <div className='features' id='features'>
         <div className='feature'>
         <img src={require('./1.png')} alt ="Image1" className='contain'/>
         <div className='contain'>
@@ -122,8 +125,8 @@ function App() {
         </div>
       </div>
 
-
-      <div className='quote-container'>
+            
+      <div className='quote-container' id='testimonials'>
         <div>
         <h1 className='quote'>“FaceSwapPro is incredibly fun and addictive! I've spent hours swapping faces with my friends and laughing at the hilarious results.”</h1>
         <h3 className='person'>Akshay Kudalkar</h3>
@@ -134,7 +137,7 @@ function App() {
       </div>
 
 
-      <div className='login-containers'>
+      <div className='login-containers' id='register'>
         <h1 className='join-text'>Join the FaceSwapPro community today.</h1>
         <h3 className='mukul-quote'>"FaceSwapPro has been a game-changer for my photography business. Clients love the unique and creative photos I can create with this tool.” - Mukul Salvi</h3>
         <div className='login-container'>

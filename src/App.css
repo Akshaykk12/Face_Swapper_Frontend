@@ -6,12 +6,10 @@
 }
 
 .top-nav {
-  padding: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 .top-nav h1 {
-  margin: 0;
   color: black;
   font-size: 24px;
 }
@@ -20,8 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 20px; */
-  padding: 30px;
+  padding-top: 15vh;
 }
 
 .left-section {
@@ -138,7 +135,9 @@ button:hover {
   margin:20px;
   padding:15px;
 }
+
 .feature{
+  padding-top: 60px;
   display: flex;
 }
 .contain{
@@ -159,6 +158,7 @@ button:hover {
   font-size: 20px;
   font-weight: inherit;
 }
+
 .quote-container{
   background-color: #ff88c1;
   margin-top: 200px;
@@ -177,14 +177,14 @@ button:hover {
   color: white;
   font-weight: inherit;
 }
-.pinkdots{
-  
+.pinkdots{ 
   width: 25%;
   height:auto;
   position: absolute;
   top: 2800px;
   right:30px;
 }
+
 .login-containers{
   border: 2px solid grey;
   border-radius: 20px;
@@ -226,3 +226,4 @@ button:hover {
   padding: 12px;
   font-size: 15px;
 }
+
